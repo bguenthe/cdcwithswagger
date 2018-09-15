@@ -1,0 +1,24 @@
+request:
+  method: GET
+  url: /ottomarketstock
+  headers:
+    Content-Type: application/json
+response:
+  status: 200
+  body:
+    partnernummer: "partnernummer"
+    stylenummer: "stylenummer"
+    partnerArtikelnummer: "partner_artikelnummer"
+    konzernArtikelnummer: "konzern_artikelnummer"
+    herstellerMarke: "hersteller_Marke"
+    groesse: "groesse"
+    ean: "EAN"
+    verkaufspreis: 100
+    partnerbestand: 100
+    letzeAenderungPartnerbestand: "letze_Aengerung_Partnerbestand"
+    verfuegbaerOttoLagerbestand: 100
+    nichtVerfuegbaerOttoLagerbestand: 0
+    ottoGesamtbestand: 0
+    freierGesamtbestand: 0
+  headers:
+    Content-Type: application/json;charset=UTF-8
